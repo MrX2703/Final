@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results by PNR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Search Student Results</h1>
+    <form id="search-form">
+      <label for="pnr">Enter PNR:</label>
+      <input type="number" id="pnr" name="pnr" placeholder="Enter PNR" required>
+      <button type="submit">Search</button>
+    </form>
+    <p id="error-message" style="color:red;"></p>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
