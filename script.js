@@ -3,7 +3,7 @@ let jsonData = {};
 // Load the JSON file on page load
 window.onload = async function() {
   try {
-    const response = await fetch('data.json'); // Change 'data.json' to the path of your JSON file
+    const response = await fetch('11242_IV_GS_S24 (1).json'); // Change 'data.json' to the path of your JSON file
     jsonData = await response.json();
     console.log('Data loaded:', jsonData);
   } catch (error) {
